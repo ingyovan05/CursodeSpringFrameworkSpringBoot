@@ -7,4 +7,6 @@ import com.yovan.peliculas.peliculas.entities.Genero;
 public interface IGeneroRepository extends CrudRepository<Genero, Long> {
 
   
+
+  
 }
