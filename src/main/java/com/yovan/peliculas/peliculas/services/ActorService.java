@@ -14,12 +14,12 @@ public class ActorService implements IActorService {
   @Autowired
   private IActorRepository actorRepository;
 
-  @Override
+
   public List<Actor> findAll() {
     return (List<Actor>) actorRepository.findAll();
   }
 
-  @Override
+
   public List<Actor> findAllById(List<Long> ids) {
     return (List<Actor>) actorRepository.findAllById(ids);
   }
