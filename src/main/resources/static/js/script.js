@@ -22,8 +22,8 @@ function actorSelected(select) {
 function agregarActor(id, nombre, urlImagen) {
   let htmlString = `
   <div class= "card col-md-3 m-2" style="width: 10rem">
-  <img src="{URL-IMAGEN}" class="card-img-top">
-  <div class="card-body">
+  <img src="{URL-IMAGEN}" class="card-img-top" alt="" width="100" height="120">
+  <div class="card-body"> 
   <p class="card-text">{NOMBRE}</p>
   <button class="btn btn-danger" data-id="{ID}" onclick="eliminarActor(this); return false;">Eliminar</button>
   </div>
